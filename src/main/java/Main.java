@@ -1,5 +1,3 @@
-package ru.db;
-
 public class Main {
     public static void main(String[] args) {
         int[] array1 = {2, 1, 2, 3, 4};       // task 1
@@ -9,9 +7,9 @@ public class Main {
         System.out.println(countEvens(array2)); // 3
         System.out.println(countEvens(array3)); // 0
 
-        int[] array6 = {4, 8, 2, 10, 5, 23, 12};       // task 2
+        int[] array6 = {4, 8, 2, 10, 5, 12};       // task 2
         int result = getDifference(array6);
-        System.out.println(result); // 21
+        System.out.println(result); // 10
 
         int[] array4 = {1, 0, 0, 7, 2};        // task3
         boolean result1 = checkZeroNeighbors(array4);
